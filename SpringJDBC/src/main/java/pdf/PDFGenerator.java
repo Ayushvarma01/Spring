@@ -37,7 +37,7 @@ public class PDFGenerator {
 		contentStream.setFont(PDType1Font.HELVETICA, fontSize);
 		contentStream.beginText();
 		contentStream.newLineAtOffset(50, 700);
-		contentStream.showText("TAX-O-SMART");
+		contentStream.showText("SMART");
 		contentStream.newLineAtOffset(0, -leading);
 		contentStream.showText("123 Gorai Bridge");
 		contentStream.newLineAtOffset(0, -leading);
@@ -69,9 +69,9 @@ public class PDFGenerator {
 		contentStream.newLineAtOffset(0, -leading);
 		contentStream.showText("Sincerely,");
 		contentStream.newLineAtOffset(0, -leading);
-		contentStream.showText("Rahul Jha2");
+		contentStream.showText("empty");
 		contentStream.newLineAtOffset(0, -leading);
-		contentStream.showText("Nannu");
+		contentStream.showText("unknow");
 		contentStream.endText();
 
 		contentStream.close();
